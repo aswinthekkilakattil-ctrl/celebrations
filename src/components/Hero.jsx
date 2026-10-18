@@ -50,7 +50,7 @@ export default function Hero({ onNavigate }) {
                   '--particle-delay': particle.delay }} />
               ))}
             </div>
-            <figcaption><span>JINNO8 CELEBRATIONS</span></figcaption>
+            <figcaption><span>JAN 08 CELEBRATIONS</span></figcaption>
           </figure>
           <button className="hero-scroll" onClick={() => onNavigate('showcase-video')}>
             <ArrowDown size={16} aria-hidden="true" /> Scroll to discover

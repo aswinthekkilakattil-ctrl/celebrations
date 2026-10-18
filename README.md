@@ -1,4 +1,4 @@
-﻿# JINNO8 Celebrations
+﻿# JAN 08 Celebrations
 
 A React and Vite event production website with an editorial black-and-gold design. Tailwind CSS and Lucide provide the styling utilities and icons; animations use IntersectionObserver, CSS, and the browser's Web Animations API.
 
