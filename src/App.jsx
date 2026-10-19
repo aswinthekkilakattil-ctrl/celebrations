@@ -949,7 +949,7 @@ export default function App() {
                   </li>
                   <li className="flex items-start gap-2.5">
                     <CheckCircle2 className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
-                    <span>Themed dÃ©cor, luxury draping and VIP entrance arches</span>
+                    <span>Themed decor, luxury draping and VIP entrance arches</span>
                   </li>
                   <li className="flex items-start gap-2.5">
                     <CheckCircle2 className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />

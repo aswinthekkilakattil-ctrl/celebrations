@@ -260,6 +260,73 @@
 .editorial-site > .fixed { z-index: 70; } .editorial-site > .fixed > div { border-radius: 2px; border-color: #c6a76a55; background: #131310; }
 .editorial-site > .fixed h3 { font-family: var(--font-serif); font-size: 32px; font-weight: 400; padding-right: 22px; }
 .editorial-site > .fixed form :is(input,select,textarea),.editorial-site > .fixed button[type=submit] { border-radius: 0; }
+/* White-led balance: reserve gold for signature moments and primary actions. */
+.editorial-site .eyebrow,
+.editorial-site [class~="text-amber-400"] { color: #d8d5ce; }
+.editorial-site [class~="text-amber-300"] { color: #eeeae2; }
+.hero-accent { color: #eeeae2; }
+.hero-label > span { background: #e7e3da; }
+.hero-stats > div > span:first-child { color: #f0ece4; }
+.signature-stats,.editorial-section,.site-footer { border-color: #ffffff18; }
+.hero-stats > div,.strength-item,.process-step,.faq-item,.region-state,
+.partners-header,.testimonial-grid,.testimonial-card,.testimonial-card footer,
+.contact-panel a,.inquiry-form { border-color: #ffffff20; }
+.strength-item > div > div:first-child svg,
+.about-section [data-reveal=left] svg,
+.contact-panel a svg { color: #e6e2da; }
+.services-section .flex-wrap > span,.event-types-banner,
+.partner-logos > div { border-color: #ffffff20; }
+.service-card button,.text-link { color: #ece7de; border-color: #ffffff3d; }
+.service-image > span { color: #f1ede6; border-color: #ffffff35; }
+.faq-number,.process-step > div > span { color: #d8d3c9; }
+.site-footer h4,.site-footer .rounded { color: #d2cec6; }
+.testimonial-card footer strong { color: #e7e2d9; }
+.testimonial-stars { color: #d9c28e; }
+/* Readable minimum sizes for navigation, labels and supporting copy. */
+.eyebrow { font-size: 11px; }
+.nav-link { font-size: 12px; }
+.navbar-quote { font-size: 11px; }
+.hero-label { font-size: 10px; }
+.hero-accent { font-size: 11px; }
+.hero-description { font-size: 15px; }
+.hero-locations,.hero-scroll { font-size: 10px; }
+.hero-stats > div > span:last-child { font-size: 10px; }
+.stats-intro .eyebrow { font-size: 10px; }
+.showcase-section > .site-container > div:first-child > div:first-child > div { font-size: 11px; }
+.showcase-section > .site-container > div:first-child button { font-size: 11px; }
+.video-title,.video-controls button { font-size: 11px; }
+.service-image > span,.portfolio-caption .eyebrow,.portfolio-location,
+.portfolio-video,.process-step > div:last-child,.region-state-title > span,
+.region-state small,.region-status,.region-note { font-size: 10px; }
+.service-card button,.site-footer h4,.site-footer .rounded,
+.testimonial-card footer strong { font-size: 11px; }
+.testimonial-card footer span { font-size: 10px; }
+.inquiry-form form label { font-size: 10px; }
+.editorial-section > .site-container > .text-center > span { font-size: 11px; }
+.editorial-section > .site-container > .text-center > p { font-size: 14px; }
+.intro-statement .rounded { font-size: 11px; }
+.strength-item p { font-size: 14px; }
+.strength-item > div:last-child { font-size: 11px; }
+.about-section [data-reveal=left] > p { font-size: 15px; }
+.about-section h4 { font-size: 11px; }
+.about-section [data-reveal=left] > .grid p { font-size: 14px; }
+.services-section > .site-container > .text-center > span { font-size: 12px; }
+.services-section > .site-container > .text-center > p { font-size: 15px; }
+.service-card ul,.service-card li { font-size: 14px; }
+.service-card button { font-size: 12px; }
+.process-section > .site-container > .text-center > p { font-size: 15px; }
+.process-step p { font-size: 14px; }
+.process-step > div:last-child { font-size: 11px; }
+.portfolio-section > .site-container > div:first-child button { font-size: 12px; }
+.portfolio-location,.portfolio-video { font-size: 11px; }
+.portfolio-caption .eyebrow { font-size: 11px; }
+.portfolio-caption p { font-size: 14px; }
+.faq-heading p { font-size: 15px; }
+.faq-heading .text-link { font-size: 13px; }
+.faq-item h3 button { font-size: 16px; }
+.faq-number { font-size: 11px; }
+.faq-answer-copy { font-size: 15px; }
+.contact-panel .grid > .lg\:col-span-5 > div > p { font-size: 15px; }
 /* Motion is progressive enhancement */
 @keyframes cinematic-rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes cinematic-fade { from { opacity: 0; } to { opacity: 1; } }
