@@ -14,6 +14,20 @@ export default function Hero({ onNavigate }) {
   return (
     <>
       <section className="hero-section" aria-labelledby="hero-title">
+        <figure className="hero-visual">
+          <video src={HERO_VIDEO} autoPlay muted loop playsInline
+            poster="/images/hero-gala.jpg"
+            aria-label="Live music concert at night with dramatic stage lighting" />
+          <div className="hero-visual-shade" />
+          <div className="hero-particles" aria-hidden="true">
+            {PARTICLES.map((particle, index) => (
+              <span key={index} style={{ left: particle.left, top: particle.top,
+                '--particle-size': particle.size, '--particle-duration': particle.duration,
+                '--particle-delay': particle.delay }} />
+            ))}
+          </div>
+          <figcaption><span>JAN 08 CELEBRATIONS</span></figcaption>
+        </figure>
         <div className="site-container hero-layout">
           <div className="hero-copy">
             <h1 id="hero-title" className="hero-heading">
@@ -36,21 +50,6 @@ export default function Hero({ onNavigate }) {
             </div>
             <div className="hero-locations"><span>Kerala</span><i /><span>Tamil Nadu</span><i /><span>Karnataka</span></div>
           </div>
-          <figure className="hero-visual">
-            <video src={HERO_VIDEO} autoPlay muted loop playsInline
-              poster="/images/hero-gala.jpg"
-              aria-label="Live music concert at night with dramatic stage lighting" />
-            <div className="hero-visual-shade" />
-            <div className="hero-light" />
-            <div className="hero-particles" aria-hidden="true">
-              {PARTICLES.map((particle, index) => (
-                <span key={index} style={{ left: particle.left, top: particle.top,
-                  '--particle-size': particle.size, '--particle-duration': particle.duration,
-                  '--particle-delay': particle.delay }} />
-              ))}
-            </div>
-            <figcaption><span>JAN 08 CELEBRATIONS</span></figcaption>
-          </figure>
           <button className="hero-scroll" onClick={() => onNavigate('showcase-video')}>
             <ArrowDown size={16} aria-hidden="true" /> Scroll to discover
           </button>
