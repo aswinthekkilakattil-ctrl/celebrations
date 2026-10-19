@@ -260,28 +260,6 @@
 .editorial-site > .fixed { z-index: 70; } .editorial-site > .fixed > div { border-radius: 2px; border-color: #c6a76a55; background: #131310; }
 .editorial-site > .fixed h3 { font-family: var(--font-serif); font-size: 32px; font-weight: 400; padding-right: 22px; }
 .editorial-site > .fixed form :is(input,select,textarea),.editorial-site > .fixed button[type=submit] { border-radius: 0; }
-/* White-led balance: reserve gold for signature moments and primary actions. */
-.editorial-site .eyebrow,
-.editorial-site [class~="text-amber-400"] { color: #d8d5ce; }
-.editorial-site [class~="text-amber-300"] { color: #eeeae2; }
-.hero-accent { color: #eeeae2; }
-.hero-label > span { background: #e7e3da; }
-.hero-stats > div > span:first-child { color: #f0ece4; }
-.signature-stats,.editorial-section,.site-footer { border-color: #ffffff18; }
-.hero-stats > div,.strength-item,.process-step,.faq-item,.region-state,
-.partners-header,.testimonial-grid,.testimonial-card,.testimonial-card footer,
-.contact-panel a,.inquiry-form { border-color: #ffffff20; }
-.strength-item > div > div:first-child svg,
-.about-section [data-reveal=left] svg,
-.contact-panel a svg { color: #e6e2da; }
-.services-section .flex-wrap > span,.event-types-banner,
-.partner-logos > div { border-color: #ffffff20; }
-.service-card button,.text-link { color: #ece7de; border-color: #ffffff3d; }
-.service-image > span { color: #f1ede6; border-color: #ffffff35; }
-.faq-number,.process-step > div > span { color: #d8d3c9; }
-.site-footer h4,.site-footer .rounded { color: #d2cec6; }
-.testimonial-card footer strong { color: #e7e2d9; }
-.testimonial-stars { color: #d9c28e; }
 /* Readable minimum sizes for navigation, labels and supporting copy. */
 .eyebrow { font-size: 11px; }
 .nav-link { font-size: 12px; }
