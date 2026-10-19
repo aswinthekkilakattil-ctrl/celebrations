@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @theme {
- --font-sans: 'Manrope', sans-serif; --font-serif: 'Cormorant Garamond', Georgia, serif; --font-mono: 'Manrope', sans-serif;
+ --font-sans: 'Segoe UI Variable', 'Segoe UI', Arial, sans-serif; --font-serif: 'Cormorant Garamond', Georgia, serif; --font-mono: 'Segoe UI Variable', 'Segoe UI', Arial, sans-serif;
  --color-amber-200: #eddfbf; --color-amber-300: #d9c28e; --color-amber-400: #c6a76a; --color-amber-500: #b29050; --color-amber-600: #90723c; --color-yellow-500: #c6a76a;
 }
 @layer base {
@@ -393,3 +393,33 @@
 .footer-contact a { width: fit-content; transition: color 200ms; }
 .footer-contact a:hover { color: #e6d4ac; }
 .editorial-site .animate-ping,.editorial-site .animate-bounce { animation: none; }
+/* Final readable type scale. Heading sizes remain unchanged. */
+.editorial-site { font-size: 16px; }
+.editorial-site p { font-size: 16px; line-height: 1.75; }
+.editorial-site li { font-size: 15px; }
+.nav-link,.mobile-nav .nav-link { font-size: 14px; }
+.navbar-quote,.button-gold,.button-outline { font-size: 13px; }
+.eyebrow,.hero-label,.hero-accent { font-size: 12px; }
+.hero-description { font-size: 16px; }
+.hero-locations,.hero-scroll,.hero-visual figcaption { font-size: 11px; }
+.hero-stats > div > span:last-child,.stats-intro .eyebrow { font-size: 11px; }
+.showcase-section > .site-container > div:first-child > div:first-child > div,
+.showcase-section > .site-container > div:first-child button,
+.video-title,.video-controls button { font-size: 13px; }
+.intro-statement .rounded,.strength-item > div:last-child,
+.service-image > span,.service-card button,.process-step > div:last-child,
+.portfolio-section > .site-container > div:first-child button,
+.portfolio-location,.portfolio-video,.portfolio-caption .eyebrow,
+.testimonial-index,.testimonial-card footer strong,.testimonial-card footer span,
+.region-status,.region-state-title > span,.region-state small,.region-note,
+.faq-number,.site-footer h4,.site-footer .rounded,.footer-contact { font-size: 12px; }
+.strength-item p,.about-section [data-reveal=left] > p,
+.about-section [data-reveal=left] > .grid p,.service-card ul,.service-card li,
+.process-step p,.portfolio-caption p,.partners-header > p,
+.region-intro > p:not(.eyebrow),.faq-heading p,.faq-answer-copy,
+.contact-panel .grid > .lg\:col-span-5 > div > p { font-size: 16px; }
+.faq-heading .text-link { font-size: 14px; }
+.faq-item h3 button { font-size: 17px; }
+.inquiry-form form label { font-size: 12px; }
+.inquiry-form :is(input,select,textarea) { font-family: var(--font-sans); font-size: 16px; }
+.inquiry-form form > button,.editorial-site > .fixed button[type=submit] { font-size: 13px; }

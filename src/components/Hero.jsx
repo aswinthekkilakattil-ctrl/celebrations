@@ -16,7 +16,6 @@ export default function Hero({ onNavigate }) {
       <section className="hero-section" aria-labelledby="hero-title">
         <div className="site-container hero-layout">
           <div className="hero-copy">
-            <p className="eyebrow hero-label"><span /> Events. People. Extraordinary moments.</p>
             <h1 id="hero-title" className="hero-heading">
               <span className="hero-line hero-line--first">Crafting</span>
               <span className="hero-line hero-line--second">extraordinary</span>
