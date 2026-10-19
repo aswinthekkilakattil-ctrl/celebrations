@@ -707,7 +707,7 @@ export default function App() {
       </section>
 
       {/* About Us Section */}
-      <section id="about" className="editorial-section about-section">
+      <section id="about" className="editorial-section about-section section-light">
         <div className="site-container">
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center w-full">
@@ -994,7 +994,7 @@ export default function App() {
       </section>
 
       {/* How We Work Section */}
-      <section id="how-we-work" className="editorial-section process-section">
+      <section id="how-we-work" className="editorial-section process-section section-light">
         <div className="site-container">
           
           <div className="text-center max-w-3xl mx-auto mb-16">
@@ -1216,7 +1216,7 @@ export default function App() {
         </div>
       </section>
 
-      <section id="faqs" className="editorial-section faq-section">
+      <section id="faqs" className="editorial-section faq-section section-light">
         <div className="site-container faq-layout">
           <div className="faq-heading" data-reveal="up">
             <span className="eyebrow">Answers &amp; Assurance</span>
