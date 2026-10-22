@@ -186,7 +186,6 @@ const SERVICE_AREAS = [
 export default function App() {
   const pageRef = useRef(null);
   useScrollAnimations(pageRef);
-  const [navScrolled, setNavScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('');
   const menuToggleRef = useRef(null);
@@ -216,13 +215,12 @@ export default function App() {
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
-  // Share one passive listener and at most one section measurement per frame.
+  // Track the active anchor only; header position and appearance do not depend on scroll.
   useEffect(() => {
     let frame = 0;
     const sections = NAV_ITEMS.map(({ id }) => document.getElementById(id));
     const updateNavigation = () => {
       frame = 0;
-      setNavScrolled(window.scrollY > 40);
       let current = '';
       for (const section of sections) {
         if (section && section.getBoundingClientRect().top <= 140) current = section.id;
@@ -342,7 +340,7 @@ export default function App() {
   return (
     <div ref={pageRef} className="editorial-site w-full min-w-full m-0 p-0 overflow-x-hidden bg-[#07080B] text-neutral-100 font-sans antialiased selection:bg-amber-500 selection:text-black">
       
-      <header className={`site-header ${navScrolled || mobileMenuOpen ? 'site-header--solid' : ''}`}>
+      <header className="site-header">
         <div className="site-container navbar">
           <a href="#" className="navbar-logo" aria-label="Celebrations home"
             onClick={(event) => {
